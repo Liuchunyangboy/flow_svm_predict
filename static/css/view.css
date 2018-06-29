@@ -1,0 +1,76 @@
+.title{
+	text-align:center;
+	background-color:#FFFFFF;
+	color:#5298FE;
+    left: 45%;
+	font-size: 30px;
+}
+.tl{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #46b8da;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #3285FF;
+    float:left;
+    opacity:0.7;}
+.ts{
+    margin-left: 20px;
+   display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #46b8da;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #3285FF;
+    float:left;
+    opacity:0.7;
+}
+.poster-list{
+	height:400px;
+	width:7500px;
+	margin-bottom:0;
+}
+.poster-item{
+	margin-left:50px;
+	height:400px;
+	width:200px;
+	list-style:none;
+	cursor:pointer;
+	float: left;
+	/*background-color:blue;*/
+	transition:all .5s;
+}
+.activity{
+    width: 100%;
+    height:400px;
+    overflow: hidden;
+    overflow-x:scroll;
+}
+.name{
+	visibility: hidden;
+}
+.show{
+	width:100%;
+    height:100px;
+    border: 1px solid #46b8da;
+    border-radius:4px;
+    background-color:#fff;
+    opacity:0.9;
+    font-family:'Microsoft Yahei';
+}
